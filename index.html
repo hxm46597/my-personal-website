@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Google Fonts 的 Inter 字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* 设置全局字体 */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+    <!-- 主内容容器，使用 overflow-hidden 来包裹圆角图片 -->
+    <div class="bg-white rounded-xl shadow-lg max-w-2xl w-full overflow-hidden">
+
+        <!-- 个人图片 (已更新) -->
+        <img 
+            class="w-full h-64 object-cover object-center"
+            src="https://img0.baidu.com/it/u=2418229715,3965442587&fm=253&fmt=auto&app=138&f=JPEG"
+            alt="三井寿"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x400/ef4444/ffffff?text=图片加载失败';"
+        >
+        
+        <!-- 文字内容容器 -->
+        <div class="p-8 sm:p-10 text-center">
+            <!-- 标题 -->
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
+                三井寿
+            </h1>
+            
+            <!-- 第一段介绍 -->
+            <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
+                三井寿是日本漫画《灌篮高手》中的角色。
+            </p>
+            
+            <!-- 第二段介绍 -->
+            <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
+                有“炎之男”之称的他是湘北篮球队的得分后卫，拿手绝技是三分球，并且具有强烈的求胜欲望。
+            </p>
+            
+            <!-- 第三段介绍 -->
+            <p class="text-gray-600 text-base sm:text-lg leading-relaxed">
+                三井寿初中时曾是武石中学的皇牌球员，在县大赛总决赛上球队曾一度落后对手，后在奋力扑球后受到安西教练的鼓舞，最后带领武石中学夺得县大赛冠军并获得MVP。 
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
